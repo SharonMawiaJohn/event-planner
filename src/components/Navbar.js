@@ -11,6 +11,7 @@ const Navbar = () => {
   return (
     <nav className='navbar'>
       <Link to="/">Home</Link>
+      <Link to="/about">About</Link>
       <button onClick={handleLoginClick}>Login</button>
     </nav>
   );

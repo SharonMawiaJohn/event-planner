@@ -1,6 +1,8 @@
 import Home from "../pages/Home";
 import RSVPForm from "../pages/RSVPForm"
 import EventDetails from "../pages/EventDetails";
+import About from "../pages/About";
+
 
 
 const routes = [
@@ -16,6 +18,10 @@ const routes = [
     {
       path: "/events/:id",  
       element: <EventDetails />,
+    },
+    {
+      path: "/about",  
+      element: <About />,
     }
   ];
   
